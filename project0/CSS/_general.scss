@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    background-color: $primaryDark;
+    margin: 0px;
+    
+}
+
+
+//Image Container
+
+.imgContainer{
+   height:100vh;
+   padding: 0px;
+   overflow: hidden;
+   
+
+   &__img{
+       min-width: 100%;
+       position: absolute;
+       left: 50%;
+       transform: translateX(-50%);
+       
+   }
+   
+   
+}
+
+.contentContainer{
+    padding:5rem;
+    height: 100vh;
+
+    //display: grid;
+    //grid-template-columns: 3rem, 1fr, 20rem;
+    
+
+}
+
+.accordionContainer{
+    height: 100%;
+}

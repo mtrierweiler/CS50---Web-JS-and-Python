@@ -1,0 +1,34 @@
+/* 
+usually I would break up my css and load it on pages as needed to reduce the 
+amount of bloat / unused CSS, but we are using the bootstrap library haha.
+This being a tiny simple site im just going to include it all into one css file called style.
+However I will use some page specific files for some organization.
+*/
+body {
+  display: flex;
+  background-color: #292929;
+  margin: 0px;
+}
+
+.imgContainer {
+  height: 100vh;
+  padding: 0px;
+  overflow: hidden;
+}
+.imgContainer__img {
+  min-width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contentContainer {
+  padding: 5rem;
+  height: 100vh;
+}
+
+.accordionContainer {
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */

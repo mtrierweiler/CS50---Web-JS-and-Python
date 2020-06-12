@@ -1,0 +1,17 @@
+/* 
+usually I would break up my css and load it on pages as needed to reduce the 
+amount of bloat / unused CSS, but we are using the bootstrap library haha.
+This being a tiny simple site im just going to include it all into one css file called style.
+However I will use some page specific files for some organization.
+*/
+
+//Color Palletee
+$primaryDark: #292929;
+$secondaryDark: red;
+
+//Fonts
+
+
+
+@import "general"
+
