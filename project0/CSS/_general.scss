@@ -28,9 +28,9 @@ body{
 .contentContainer{
     padding:5rem;
     height: 100vh;
-
-    //display: grid;
-    //grid-template-columns: 3rem, 1fr, 20rem;
+    color: $fontLight;
+    display: grid;
+    grid-template-rows: 3rem 1fr max-content;
     
 
 }

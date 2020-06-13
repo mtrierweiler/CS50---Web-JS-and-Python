@@ -25,6 +25,9 @@ body {
 .contentContainer {
   padding: 5rem;
   height: 100vh;
+  color: #ccccd3;
+  display: grid;
+  grid-template-rows: 3rem 1fr max-content;
 }
 
 .accordionContainer {
